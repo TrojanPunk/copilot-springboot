@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class PropertyFilterData {
     private String category;
-    private double minPrice;
-    private double maxPrice;
-    private double area;
-    private double price;
+    private int minPrice;
+    private int maxPrice;
+    private int area;
+    private int price;
 }
